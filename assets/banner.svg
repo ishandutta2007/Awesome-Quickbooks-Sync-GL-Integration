@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340" style="background: linear-gradient(135deg, #091224 0%, #0c1b38 45%, #15274d 100%); border-radius: 14px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ca01c" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#0077c5" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8a3ffc" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ca01c"/>
+      <stop offset="50%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Background Dynamic Floating Orbs */
+    @keyframes floatOrb1 {
+      0% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(70px, 35px) scale(1.15); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    @keyframes floatOrb2 {
+      0% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-60px, -40px) scale(1.2); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.65; }
+    }
+    @keyframes streamFlow {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes nodeBlink {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    .orb-1 {
+      animation: floatOrb1 14s ease-in-out infinite, pulseGlow 7s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .orb-2 {
+      animation: floatOrb2 16s ease-in-out infinite, pulseGlow 9s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .flow-line {
+      stroke-dasharray: 12, 16;
+      animation: streamFlow 10s linear infinite;
+    }
+    .flow-line-reverse {
+      stroke-dasharray: 10, 14;
+      animation: streamFlow 12s linear infinite reverse;
+    }
+    .node-pulse-1 { animation: nodeBlink 3s ease-in-out infinite; transform-origin: 180px 70px; }
+    .node-pulse-2 { animation: nodeBlink 3.5s ease-in-out infinite 1s; transform-origin: 1020px 260px; }
+    .node-pulse-3 { animation: nodeBlink 4s ease-in-out infinite 2s; transform-origin: 1060px 80px; }
+  </style>
+
+  <!-- Deep Background Glow Orbs -->
+  <g filter="url(#blurFilter)">
+    <circle class="orb-1" cx="220" cy="90" r="130" fill="#2ca01c"/>
+    <circle class="orb-2" cx="980" cy="240" r="150" fill="#0077c5"/>
+    <circle class="orb-1" cx="600" cy="290" r="110" fill="#8a3ffc" opacity="0.4"/>
+  </g>
+
+  <!-- Decorative Circuit & GL Data Stream Lines -->
+  <g stroke="rgba(255,255,255,0.12)" stroke-width="1.5" fill="none">
+    <path class="flow-line" stroke="url(#textGrad)" stroke-width="2" opacity="0.4" d="M -50,60 Q 300,120 600,40 T 1250,70" />
+    <path class="flow-line-reverse" stroke="#00d2ff" stroke-width="1.5" opacity="0.3" d="M -50,270 Q 350,210 650,280 T 1250,250" />
+    <path stroke="rgba(255,255,255,0.06)" d="M 120,40 L 240,40 L 290,90 L 450,90" />
+    <path stroke="rgba(255,255,255,0.06)" d="M 750,260 L 900,260 L 960,210 L 1080,210" />
+  </g>
+
+  <!-- Dynamic Nodes -->
+  <circle class="node-pulse-1" cx="180" cy="70" r="4" fill="#2ca01c"/>
+  <circle class="node-pulse-2" cx="1020" cy="260" r="4" fill="#00d2ff"/>
+  <circle class="node-pulse-3" cx="1060" cy="80" r="4" fill="#a855f7"/>
+
+  <!-- Foreground Main Content Container (Kept in foreground, clear of animated clutter) -->
+  <!-- Top Badge / Pill -->
+  <g transform="translate(600, 52)">
+    <rect x="-140" y="-16" width="280" height="32" rx="16" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.18)" stroke-width="1"/>
+    <text text-anchor="middle" y="5" fill="#38ef7d" font-size="12.5" font-weight="700" letter-spacing="2">⚡ CURATED ECOSYSTEM ARCHIVE ⚡</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <g transform="translate(600, 130)">
+    <!-- Title -->
+    <text text-anchor="middle" fill="#ffffff" font-size="35" font-weight="800" letter-spacing="-0.5">
+      Awesome <tspan fill="url(#textGrad)">QuickBooks Sync</tspan> &amp; GL Integration
+    </text>
+    <!-- Subtitle -->
+    <text text-anchor="middle" y="44" fill="#cbd5e1" font-size="16" font-weight="400" letter-spacing="0.2">
+      General Ledger Connectors, Bi-Directional Invoicing, Real-Time Accounting APIs &amp; AI Mirrors
+    </text>
+  </g>
+
+  <!-- Feature Highlights / Tag Badges -->
+  <g transform="translate(600, 245)">
+    <!-- SaaS iPaaS Badge -->
+    <g transform="translate(-320, 0)">
+      <rect x="-85" y="-18" width="170" height="36" rx="18" fill="url(#cardGrad)" stroke="rgba(0, 210, 255, 0.35)" stroke-width="1"/>
+      <text text-anchor="middle" y="5" fill="#e2e8f0" font-size="13" font-weight="600">☁️ Enterprise iPaaS</text>
+    </g>
+
+    <!-- General Ledger Badge -->
+    <g transform="translate(-105, 0)">
+      <rect x="-95" y="-18" width="190" height="36" rx="18" fill="url(#cardGrad)" stroke="rgba(44, 160, 28, 0.45)" stroke-width="1"/>
+      <text text-anchor="middle" y="5" fill="#e2e8f0" font-size="13" font-weight="600">📊 Chart of Accounts &amp; GL</text>
+    </g>
+
+    <!-- Open Source Libraries Badge -->
+    <g transform="translate(115, 0)">
+      <rect x="-90" y="-18" width="180" height="36" rx="18" fill="url(#cardGrad)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="1"/>
+      <text text-anchor="middle" y="5" fill="#e2e8f0" font-size="13" font-weight="600">💻 Open-Source SDKs</text>
+    </g>
+
+    <!-- Local AI & MCP Badge -->
+    <g transform="translate(325, 0)">
+      <rect x="-85" y="-18" width="170" height="36" rx="18" fill="url(#cardGrad)" stroke="rgba(255, 184, 0, 0.4)" stroke-width="1"/>
+      <text text-anchor="middle" y="5" fill="#e2e8f0" font-size="13" font-weight="600">🤖 Local &amp; MCP Servers</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="336" width="1200" height="4" fill="url(#textGrad)"/>
+</svg>

@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-brightgreen.svg?style=flat-square" alt="License: CC0-1.0" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
@@ -62,9 +62,9 @@ Commercial, cloud-hosted QuickBooks Sync and General Ledger Integration platform
 
 ## 💻 Open-Source Software & Developer Libraries
 
-Community-driven, open-source QuickBooks sync libraries, local data mirrors, MCP servers, and self-hosted accounting suites sorted descending by GitHub star count.
+Community-driven, open-source QuickBooks sync libraries, local data mirrors, MCP servers, and self-hosted accounting suites sorted descending by GitHub Stars_Count.
 
-| Project | Stack & Technology | License | GitHub Stars | Architecture & Key Capabilities |
+| Project | Stack & Technology | License | GitHub_Stars | Architecture & Key Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Bigcapital](https://github.com/bigcapitalhq/bigcapital)** | TypeScript / Node.js / React | AGPL-3.0 | [![Stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers) | Full self-hosted double-entry financial accounting alternative with automated journal entries, invoicing, and reporting engines. |
 | **[SlowBooks-Pro-2026](https://github.com/VonHoltenCodes/SlowBooks-Pro-2026)** | Python / Desktop GUI | Source-Available / MIT | [![Stars](https://img.shields.io/github/stars/VonHoltenCodes/SlowBooks-Pro-2026?style=social&color=white)](https://github.com/VonHoltenCodes/SlowBooks-Pro-2026/stargazers) | Open-source standalone QuickBooks replacement decompiled from QBW32.EXE; provides double-entry GL, payroll, bank feeds, and multi-user server. |

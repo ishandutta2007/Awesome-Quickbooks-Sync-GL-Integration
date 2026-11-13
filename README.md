@@ -4,7 +4,8 @@
 <a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-brightgreen.svg?style=flat-square" alt="License: CC0-1.0" /></a>
-<a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 <br/><br/>
 
@@ -30,6 +31,8 @@
 - [💻 Open-Source Software & Developer Libraries](#-open-source-software--developer-libraries)
 - [📊 Comparison Matrix at a Glance](#-comparison-matrix-at-a-glance)
 - [🔍 Architectural Patterns: Bi-Directional vs. Local Mirror vs. iPaaS](#-architectural-patterns)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🌟 Star History](#--star-history)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -107,6 +110,22 @@ When integrating external software with QuickBooks and General Ledgers, three do
    - *Trade-offs:* Requires development and maintenance of rate-limiting queues, backoff algorithms, and token refresh machinery.
 3. **Local Replica / Change-Data-Capture (CDC) & MCP Servers (e.g., local-books, intuit-mcp-server):**
    - *Strengths:* Keeps financial transaction histories on private infrastructure; empowers LLM agents (via Model Context Protocol) to generate financial reports and perform audits safely without leaking sensitive accounting entries.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this curated resource! If you find this repository helpful for your accounting infrastructure, integrations, or developer tooling, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it
+- 🍴 **Fork and contribute** new connectors, libraries, and tools
+- 📢 **Share with your team**, colleagues, and developer communities
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and open-source maintenance, please consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007). Every bit of support is deeply appreciated!
+
+---
+
+##  Star History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Quickbooks-Sync-GL-Integration&type=date&legend=top-left)](https://www.star-history.com/#ishandutaa2007/Awesome-Quickbooks-Sync-GL-Integration&type=date&legend=top-left)
 
 ---
 
